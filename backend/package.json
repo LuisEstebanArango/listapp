@@ -1,0 +1,30 @@
+{
+  "name": "listapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisEstebanArango/listapp"
+  },
+  "author": "larango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisEstebanArango/listapp/issues"
+  },
+  "homepage": "https://github.com/LuisEstebanArango/listapp",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.8.5",
+    "morgan": "^1.8.1",
+    "rotating-file-stream": "^1.1.9"
+  }
+}

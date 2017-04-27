@@ -1,0 +1,23 @@
+{
+  "name": "listapp",
+  "homepage": "https://github.com/LuisEstebanArango/listapp",
+  "authors": [
+    "luisesteban <estebanarango14@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.3",
+    "angular-ui-router": "^0.4.2",
+    "angular-resource": "^1.6.4",
+    "js-cookie": "^2.1.4"
+  }
+}

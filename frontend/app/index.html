@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flat Admin V.3 - Free flat-design bootstrap administrator templates</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="css/flat-admin.css">
+
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="css/theme/blue-sky.css">
+  <link rel="stylesheet" type="text/css" href="css/theme/blue.css">
+  <link rel="stylesheet" type="text/css" href="css/theme/red.css">
+  <link rel="stylesheet" type="text/css" href="css/theme/yellow.css">
+
+  <!-- bower:css -->
+    <!-- <link rel='stylesheet' href='../bower_components/angular-ui-tree/dist/angular-ui-tree.css' /> -->
+  <!-- endbower -->
+
+</head>
+<body>
+  <div ng-app="listapp" class="app app-default">
+    <!-- <div ng-include="'views/login.html'"></div> -->
+    <div ui-view></div>
+  </div>
+
+  <script type="text/javascript" src="scripts/utils/vendor.js"></script>
+  <script type="text/javascript" src="scripts/utils/app.js"></script>
+
+  <!-- bower:js -->
+   <script src="../bower/angular/angular.js"></script>
+   <script src="../bower/angular-ui-router/release/angular-ui-router.min.js"></script>
+   <script src="../bower/angular-resource/angular-resource.js"></script>
+   <script src="../bower/js-cookie/src/js.cookie.js"></script>
+  <!-- endbower -->
+
+  <!-- our js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/login.js"></script>
+  <script src="scripts/controllers/dashboard.js"></script>
+  <!-- end our js -->
+
+</body>
+</html>
