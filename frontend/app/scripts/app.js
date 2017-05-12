@@ -58,17 +58,64 @@
               resolve: {
                 isLogged : isLogged
               }
+        })
+        .state('songs', {
+            url: '/songs',
+            templateUrl: 'views/songs.html',
+            controller: 'SongCtrl',
+            controllerAs: 'songCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
+        })
+        .state('lists', {
+            url: '/lists',
+            templateUrl: 'views/lists.html',
+            controller: 'ListCtrl',
+            controllerAs: 'listCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
+        })
+        .state('groups', {
+            url: '/groups',
+            templateUrl: 'views/groups.html',
+            controller: 'GroupCtrl',
+            controllerAs: 'groupCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
+        })
+        .state('messages', {
+            url: '/messages',
+            templateUrl: 'views/messages.html',
+            controller: 'MessageCtrl',
+            controllerAs: 'messageCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
+        })
+        .state('profile', {
+            url: '/profile',
+            templateUrl: 'views/profile.html',
+            controller: 'ProfileCtrl',
+            controllerAs: 'profileCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
         });
     })
     .run(['$state', '$rootScope', '$http', function($state, $rootScope, $http){
 
         $rootScope.setToken = function(token){
-          Cookies.set('X-CSRF-TOKEN', token, { expires: 7 });
+          Cookies.set('X-CSRF-TOKEN', token, { expires: 2 });
           $http.defaults.headers.common['X-CSRF-TOKEN'] = token;
         };
 
         $rootScope.isLogged = function(){ // verificar localmente (cookie)
-          console.log("afd");
+          console.log(Cookies.get('X-CSRF-TOKEN'));
+          if (Cookies.get('X-CSRF-TOKEN'))
+            return true;
           return false;
         };
 

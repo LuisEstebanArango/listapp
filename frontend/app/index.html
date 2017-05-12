@@ -20,13 +20,10 @@
 
 </head>
 <body>
-  <div ng-app="listapp" class="app app-default">
+  <div ng-app="listapp" class="app app-default" ng-controller="MainCtrl as mainCtrl">
     <!-- <div ng-include="'views/login.html'"></div> -->
     <div ui-view></div>
   </div>
-
-  <script type="text/javascript" src="scripts/utils/vendor.js"></script>
-  <script type="text/javascript" src="scripts/utils/app.js"></script>
 
   <!-- bower:js -->
    <script src="../bower/angular/angular.js"></script>
@@ -37,9 +34,19 @@
 
   <!-- our js -->
   <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
   <script src="scripts/controllers/login.js"></script>
   <script src="scripts/controllers/dashboard.js"></script>
+  <script src="scripts/controllers/song.js"></script>
+  <script src="scripts/controllers/list.js"></script>
+  <script src="scripts/controllers/group.js"></script>
+  <script src="scripts/controllers/message.js"></script>
+  <script src="scripts/controllers/profile.js"></script>
   <!-- end our js -->
+
+
+  <script type="text/javascript" src="scripts/utils/vendor.js"></script>
+  <script type="text/javascript" src="scripts/utils/app.js"></script>
 
 </body>
 </html>

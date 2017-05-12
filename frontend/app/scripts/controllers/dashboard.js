@@ -24,7 +24,7 @@
     activate();
 
     function activate() {
-
+      $rootScope.titleNavbar = "Dashboard";
     }
 
     function login(){
