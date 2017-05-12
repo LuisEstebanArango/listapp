@@ -20,6 +20,7 @@ app.use('/bower', express.static(path.resolve(__dirname + '/../frontend/bower_co
 app.use('/css', express.static(path.resolve(__dirname + '/../frontend/app/styles')));
 app.use('/scripts', express.static(path.resolve(__dirname + '/../frontend/app/scripts')));
 app.use('/fonts', express.static(path.resolve(__dirname + '/../frontend/app/fonts')));
+app.use('/images', express.static(path.resolve(__dirname + '/../frontend/app/images')));
 
 // get an instance of the express Router
 var router = express.Router();
