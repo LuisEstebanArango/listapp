@@ -22,7 +22,7 @@
           {{ loginCtrl.msgError }}
         </div>
         <!-- <form action="/" method="POST"> -->
-        <form>
+        <form ng-submit="loginCtrl.login()">
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">
                 <i class="fa fa-user" aria-hidden="true"></i></span>
@@ -34,8 +34,7 @@
               <input type="password" class="form-control" ng-model="loginCtrl.password" placeholder="Password" aria-describedby="basic-addon2">
             </div>
             <div class="text-center">
-                <input ng-click="loginCtrl.login()" class="btn btn-success btn-submit" value="Login">
-                <!-- <input type="submit" class="btn btn-success btn-submit" value="Login"> -->
+                <input type="submit" class="btn btn-success btn-submit" value="Login">
             </div>
         </form>
 
