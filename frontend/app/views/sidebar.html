@@ -8,40 +8,40 @@
   </div>
   <div class="sidebar-menu">
     <ul class="sidebar-nav">
-      <li class="active">
-        <a ui-sref="lists">
+      <li ng-class="titleNavbar=='Listas'?'active':''">
+        <a ui-sref="lists" ng-click="mainCtrl.openSideBar = !mainCtrl.openSideBar">
           <div class="icon">
             <i class="fa fa-tasks" aria-hidden="true"></i>
           </div>
           <div class="title">Listas</div>
         </a>
       </li>
-      <li class="@@menu.messaging">
-        <a ui-sref="songs">
+      <li ng-class="titleNavbar=='Canciones'?'active':''">
+        <a ui-sref="songs" ng-click="mainCtrl.openSideBar = !mainCtrl.openSideBar">
           <div class="icon">
             <i class="fa fa-music" aria-hidden="true"></i>
           </div>
           <div class="title">Canciones</div>
         </a>
       </li>
-      <li class="@@menu.messaging">
-        <a ui-sref="groups">
+      <li ng-class="titleNavbar=='Grupos'?'active':''">
+        <a ui-sref="groups" ng-click="mainCtrl.openSideBar = !mainCtrl.openSideBar">
           <div class="icon">
             <i class="fa fa-group" aria-hidden="true"></i>
           </div>
           <div class="title">Grupos</div>
         </a>
       </li>
-      <li class="@@menu.messaging">
-        <a ui-sref="messages">
+      <li ng-class="titleNavbar=='Mensajes'?'active':''">
+        <a ui-sref="messages" ng-click="mainCtrl.openSideBar = !mainCtrl.openSideBar">
           <div class="icon">
             <i class="fa fa-comments" aria-hidden="true"></i>
           </div>
           <div class="title">Mensajes</div>
         </a>
       </li>
-      <li class="@@menu.messaging">
-        <a ui-sref="profile">
+      <li ng-class="titleNavbar=='Perfil'?'active':''">
+        <a ui-sref="profile" ng-click="mainCtrl.openSideBar = !mainCtrl.openSideBar">
           <div class="icon">
             <i class="fa fa-user" aria-hidden="true"></i>
           </div>

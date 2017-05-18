@@ -9,3 +9,42 @@
 .navbar .navbar-collapse .navbar-nav.navbar-mobile .navbar-brand{
   height: 70px;
 }
+
+.wraper-search-custom {
+  padding-right: 1em !important;
+  float: left !important;
+  display: flex !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  height: 100% !important;
+}
+
+#search-custom{
+  height: 40px;
+  padding: 0 20px;
+  font-weight: 200;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #dfe6e8;
+  border-right: none;
+  background-color: transparent;
+}
+
+.btn-search-custom{
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #dfe6e8;
+  border-left: none;
+  background-color: transparent;
+  color: #dfe6e8;
+  font-size: 1.4em;
+}
+

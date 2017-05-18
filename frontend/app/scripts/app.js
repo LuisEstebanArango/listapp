@@ -21,7 +21,8 @@
   angular
     .module('listapp', [
       'ui.router',
-      'ngResource'
+      'ngResource',
+      'ui.bootstrap'
     ])
     .config(function ($stateProvider, $urlRouterProvider, $httpProvider){
 

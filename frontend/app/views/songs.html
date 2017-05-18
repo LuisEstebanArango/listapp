@@ -4,5 +4,65 @@
 
   <div ng-include="'views/navbar.html'"></div>
 
-  songs
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            Lista de canciones
+            <div class="pull-right">
+              <div class"wraper-search-custom">
+                <input id="search-custom" type="text" placeholder="Search..">
+                <button class="btn-search-custom"><i class="fa fa-search"></i></button>
+              </div>
+
+              <button type="button" class="btn btn-success btn-xs">Agregar</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="scroll-wraper">
+            <table class="table table-striped table-bordered table-hover">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Autor</th>
+                  <th>Contenido</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>editar, eliminar, agregar a lista</td>
+                </tr>
+                <tr>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>@twitter</td>
+                </tr>
+                <tr>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
