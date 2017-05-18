@@ -1,0 +1,11 @@
+.card .card-header {
+  padding: 1em !important;
+}
+
+.scroll-wraper {
+  overflow-x: auto;
+}
+
+.navbar .navbar-collapse .navbar-nav.navbar-mobile .navbar-brand{
+  height: 70px;
+}
