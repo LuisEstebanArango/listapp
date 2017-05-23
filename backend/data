@@ -18,5 +18,458 @@
 			"password": "123123",
 			"state": "1"
 		}
+	],
+	"songs": [
+		{
+		  "id": 1,
+		  "name": "nec nisi",
+		  "author": "Brand Croshaw",
+		  "content": "in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
+		  "lastPlayed": "5/19/2017",
+		  "timesPlayed": "1/24/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 2,
+		  "name": "sed interdum venenatis turpis enim",
+		  "author": "Janet Woodsford",
+		  "content": "diam cras pellentesque volutpat dui maecenas tristique est et tempus semper",
+		  "lastPlayed": "6/13/2016",
+		  "timesPlayed": "11/30/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 3,
+		  "name": "ac consequat metus sapien",
+		  "author": "Gail Keywood",
+		  "content": "velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros",
+		  "lastPlayed": "4/4/2017",
+		  "timesPlayed": "5/14/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 4,
+		  "name": "pellentesque at",
+		  "author": "Clay Karpets",
+		  "content": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
+		  "lastPlayed": "10/24/2016",
+		  "timesPlayed": "8/4/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 5,
+		  "name": "pellentesque volutpat",
+		  "author": "Vanda Filler",
+		  "content": "enim in tempor turpis nec euismod scelerisque quam turpis adipiscing",
+		  "lastPlayed": "7/11/2016",
+		  "timesPlayed": "5/31/2016",
+		  "idUsuario": 2,
+		  "idGrupo": 1
+		}, {
+		  "id": 6,
+		  "name": "pretium iaculis",
+		  "author": "Micheal Belderfield",
+		  "content": "phasellus sit amet erat nulla tempus vivamus in felis eu sapien",
+		  "lastPlayed": "4/23/2017",
+		  "timesPlayed": "1/8/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 7,
+		  "name": "amet erat",
+		  "author": "Averyl Gasson",
+		  "content": "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam",
+		  "lastPlayed": "9/12/2016",
+		  "timesPlayed": "1/31/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 8,
+		  "name": "odio condimentum",
+		  "author": "Kylie Ghirigori",
+		  "content": "sed sagittis nam congue risus semper porta volutpat",
+		  "lastPlayed": "8/16/2016",
+		  "timesPlayed": "9/14/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 9,
+		  "name": "lacus at velit vivamus",
+		  "author": "Glen Dellatorre",
+		  "content": "ligula sit amet eleifend pede libero quis orci nullam molestie",
+		  "lastPlayed": "1/25/2017",
+		  "timesPlayed": "2/13/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 10,
+		  "name": "lobortis est phasellus sit amet erat",
+		  "author": "Pearce Keer",
+		  "content": "justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis",
+		  "lastPlayed": "6/21/2016",
+		  "timesPlayed": "9/1/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 11,
+		  "name": "id mauris vulputate elementum",
+		  "author": "Hayden Borsay",
+		  "content": "iaculis diam erat fermentum justo nec condimentum neque sapien",
+		  "lastPlayed": "8/29/2016",
+		  "timesPlayed": "12/23/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 12,
+		  "name": "sapien dignissim vestibulum vestibulum",
+		  "author": "Sherrie Garken",
+		  "content": "vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl",
+		  "lastPlayed": "2/11/2017",
+		  "timesPlayed": "2/26/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 13,
+		  "name": "mus vivamus vestibulum sagittis sapien",
+		  "author": "Dani Lorens",
+		  "content": "lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
+		  "lastPlayed": "7/14/2016",
+		  "timesPlayed": "3/16/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 14,
+		  "name": "quisque id justo sit amet sapien",
+		  "author": "Manon Pickvance",
+		  "content": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo",
+		  "lastPlayed": "1/11/2017",
+		  "timesPlayed": "12/5/2016",
+		  "idUsuario": 2,
+		  "idGrupo": 1
+		}, {
+		  "id": 15,
+		  "name": "sapien iaculis",
+		  "author": "Violante Wogden",
+		  "content": "porttitor pede justo eu massa donec dapibus duis at velit eu est congue",
+		  "lastPlayed": "10/6/2016",
+		  "timesPlayed": "9/23/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 16,
+		  "name": "proin risus",
+		  "author": "Olive Abelov",
+		  "content": "in congue etiam justo etiam pretium iaculis justo in hac",
+		  "lastPlayed": "4/6/2017",
+		  "timesPlayed": "7/30/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 17,
+		  "name": "amet sem fusce",
+		  "author": "Noble Domino",
+		  "content": "curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien",
+		  "lastPlayed": "10/19/2016",
+		  "timesPlayed": "1/31/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 1
+		}, {
+		  "id": 18,
+		  "name": "pulvinar lobortis est phasellus",
+		  "author": "Kin Pettingall",
+		  "content": "ut erat id mauris vulputate elementum nullam varius nulla facilisi",
+		  "lastPlayed": "9/14/2016",
+		  "timesPlayed": "12/2/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 19,
+		  "name": "interdum eu tincidunt in leo maecenas",
+		  "author": "Danny Eastwood",
+		  "content": "nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula",
+		  "lastPlayed": "3/23/2017",
+		  "timesPlayed": "3/6/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 20,
+		  "name": "enim in tempor turpis nec euismod",
+		  "author": "Annabal MacCosty",
+		  "content": "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque",
+		  "lastPlayed": "7/3/2016",
+		  "timesPlayed": "12/4/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 21,
+		  "name": "nec nisi volutpat eleifend donec",
+		  "author": "Godard Skrine",
+		  "content": "porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor",
+		  "lastPlayed": "2/23/2017",
+		  "timesPlayed": "8/29/2016",
+		  "idUsuario": 2,
+		  "idGrupo": 1
+		}, {
+		  "id": 22,
+		  "name": "ultrices erat tortor sollicitudin",
+		  "author": "Francesco Popplestone",
+		  "content": "est risus auctor sed tristique in tempus sit amet sem fusce",
+		  "lastPlayed": "4/14/2017",
+		  "timesPlayed": "9/8/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 23,
+		  "name": "tortor duis mattis egestas",
+		  "author": "Zulema Klimt",
+		  "content": "nunc nisl duis bibendum felis sed interdum venenatis turpis",
+		  "lastPlayed": "3/6/2017",
+		  "timesPlayed": "5/30/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 24,
+		  "name": "placerat praesent",
+		  "author": "Georgianne Blondin",
+		  "content": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut",
+		  "lastPlayed": "1/11/2017",
+		  "timesPlayed": "9/23/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 25,
+		  "name": "quis odio consequat",
+		  "author": "Michaeline Ley",
+		  "content": "elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum",
+		  "lastPlayed": "10/19/2016",
+		  "timesPlayed": "6/10/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 26,
+		  "name": "ut mauris",
+		  "author": "Joell Boullin",
+		  "content": "felis sed interdum venenatis turpis enim blandit mi in",
+		  "lastPlayed": "12/3/2016",
+		  "timesPlayed": "7/24/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 27,
+		  "name": "metus sapien ut nunc vestibulum ante",
+		  "author": "Gretel Teague",
+		  "content": "eget tempus vel pede morbi porttitor lorem id ligula",
+		  "lastPlayed": "7/26/2016",
+		  "timesPlayed": "9/29/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 28,
+		  "name": "lectus in",
+		  "author": "Ursula Alker",
+		  "content": "eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula",
+		  "lastPlayed": "12/5/2016",
+		  "timesPlayed": "1/21/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 29,
+		  "name": "vestibulum sed magna",
+		  "author": "Abel De Mattei",
+		  "content": "nunc commodo placerat praesent blandit nam nulla integer pede justo",
+		  "lastPlayed": "4/5/2017",
+		  "timesPlayed": "11/25/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 30,
+		  "name": "montes nascetur ridiculus mus etiam",
+		  "author": "Carney Earwicker",
+		  "content": "consectetuer adipiscing elit proin interdum mauris non ligula",
+		  "lastPlayed": "9/3/2016",
+		  "timesPlayed": "8/4/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 31,
+		  "name": "mattis egestas metus",
+		  "author": "Nathan Ramsbottom",
+		  "content": "nulla nunc purus phasellus in felis donec semper",
+		  "lastPlayed": "1/17/2017",
+		  "timesPlayed": "8/30/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 32,
+		  "name": "quisque id justo sit",
+		  "author": "Dinny Timpany",
+		  "content": "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat",
+		  "lastPlayed": "10/14/2016",
+		  "timesPlayed": "7/17/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 33,
+		  "name": "tincidunt eu felis fusce posuere felis",
+		  "author": "Burk Kachel",
+		  "content": "sagittis nam congue risus semper porta volutpat quam pede lobortis",
+		  "lastPlayed": "7/20/2016",
+		  "timesPlayed": "11/29/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 34,
+		  "name": "purus eu magna vulputate luctus",
+		  "author": "Marcie Attwater",
+		  "content": "luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
+		  "lastPlayed": "8/1/2016",
+		  "timesPlayed": "11/25/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 35,
+		  "name": "cras in purus",
+		  "author": "Emmalynne Board",
+		  "content": "eleifend pede libero quis orci nullam molestie nibh in lectus",
+		  "lastPlayed": "1/24/2017",
+		  "timesPlayed": "7/18/2016",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 36,
+		  "name": "est congue elementum in",
+		  "author": "Staci Tersay",
+		  "content": "a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id",
+		  "lastPlayed": "9/11/2016",
+		  "timesPlayed": "12/19/2016",
+		  "idUsuario": 3,
+		  "idGrupo": 1
+		}, {
+		  "id": 37,
+		  "name": "montes nascetur",
+		  "author": "Hynda Garred",
+		  "content": "diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam",
+		  "lastPlayed": "7/26/2016",
+		  "timesPlayed": "7/15/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 38,
+		  "name": "amet consectetuer adipiscing elit proin interdum",
+		  "author": "Wainwright Whyborne",
+		  "content": "in hac habitasse platea dictumst etiam faucibus cursus urna",
+		  "lastPlayed": "6/18/2016",
+		  "timesPlayed": "2/25/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 39,
+		  "name": "magnis dis",
+		  "author": "Job Holtham",
+		  "content": "amet nunc viverra dapibus nulla suscipit ligula in",
+		  "lastPlayed": "5/2/2017",
+		  "timesPlayed": "2/26/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 40,
+		  "name": "elementum pellentesque quisque porta volutpat",
+		  "author": "Shirlene Ayers",
+		  "content": "metus vitae ipsum aliquam non mauris morbi non",
+		  "lastPlayed": "8/19/2016",
+		  "timesPlayed": "4/13/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 41,
+		  "name": "luctus et ultrices posuere",
+		  "author": "Celene Neubigging",
+		  "content": "eget semper rutrum nulla nunc purus phasellus in felis donec",
+		  "lastPlayed": "3/21/2017",
+		  "timesPlayed": "2/15/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 42,
+		  "name": "posuere cubilia curae mauris viverra",
+		  "author": "Harold Lunam",
+		  "content": "vel accumsan tellus nisi eu orci mauris lacinia",
+		  "lastPlayed": "6/14/2016",
+		  "timesPlayed": "6/24/2016",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 43,
+		  "name": "id justo sit amet sapien dignissim",
+		  "author": "Flint Vardy",
+		  "content": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt",
+		  "lastPlayed": "7/16/2016",
+		  "timesPlayed": "3/3/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 44,
+		  "name": "felis donec semper",
+		  "author": "Luciana Benneyworth",
+		  "content": "nec molestie sed justo pellentesque viverra pede ac diam cras",
+		  "lastPlayed": "9/28/2016",
+		  "timesPlayed": "5/3/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 2
+		}, {
+		  "id": 45,
+		  "name": "massa quis",
+		  "author": "Lauraine Style",
+		  "content": "non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel",
+		  "lastPlayed": "4/30/2017",
+		  "timesPlayed": "3/17/2017",
+		  "idUsuario": 2,
+		  "idGrupo": 1
+		}, {
+		  "id": 46,
+		  "name": "eget nunc donec quis orci eget",
+		  "author": "Brande Corley",
+		  "content": "ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at",
+		  "lastPlayed": "6/22/2016",
+		  "timesPlayed": "1/2/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 47,
+		  "name": "nulla mollis",
+		  "author": "Jehu Hanselman",
+		  "content": "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis",
+		  "lastPlayed": "6/14/2016",
+		  "timesPlayed": "1/30/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 1
+		}, {
+		  "id": 48,
+		  "name": "pellentesque volutpat dui maecenas",
+		  "author": "Gar Lakenden",
+		  "content": "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit",
+		  "lastPlayed": "3/2/2017",
+		  "timesPlayed": "5/18/2017",
+		  "idUsuario": 3,
+		  "idGrupo": 2
+		}, {
+		  "id": 49,
+		  "name": "non lectus",
+		  "author": "Bertrando Griston",
+		  "content": "elementum in hac habitasse platea dictumst morbi vestibulum",
+		  "lastPlayed": "7/22/2016",
+		  "timesPlayed": "9/16/2016",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}, {
+		  "id": 50,
+		  "name": "neque aenean auctor gravida",
+		  "author": "Jeffry Kertess",
+		  "content": "dui vel nisl duis ac nibh fusce lacus purus aliquet",
+		  "lastPlayed": "8/23/2016",
+		  "timesPlayed": "5/19/2017",
+		  "idUsuario": 1,
+		  "idGrupo": 2
+		}
 	]
 }
