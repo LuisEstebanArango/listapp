@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // app.use(methodOverride());
 
-
+//<<<<<<< logs
 var logDirectory = path.join(__dirname, 'log');
 // ensure log directory exists
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
@@ -41,6 +41,8 @@ var accessLogStream = rfs('access.log', {
 });
 // setup the logger
 app.use(morgan('combined', {stream: accessLogStream}));
+//>>>>>>>>
+
 
 
 //data
@@ -64,12 +66,6 @@ app.locals.readData();
 
 // Login
 router.get('/', function(req, res) {
-    // res.send(data);
-    // app.locals.title = 'My App';
-    // app.set('luis', true);
-    // console.log(app.get('luis'));
-    // app.disable('luis');
-    // console.log(app.locals);
     res.sendFile(path.resolve(__dirname + '/../frontend/app/index.html'));
 });
 
@@ -78,8 +74,9 @@ router.get('/views/*', function(req, res) {
 });
 
 // Routes
-app.use('/api', require('./controllers/api'));
+// app.use('/api', require('./controllers/api'));
 app.use('/api/users', require('./controllers/users'));
+app.use('/api/songs', require('./controllers/songs'));
 app.use('', router);
 
 http.listen(config.get('web_port'), function(){
