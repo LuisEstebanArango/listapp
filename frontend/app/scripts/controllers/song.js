@@ -8,13 +8,15 @@
     .module('listapp')
     .controller('SongCtrl', SongCtrl);
 
-  SongCtrl.$inject = ['$rootScope'];
+  SongCtrl.$inject = ['$rootScope', 'songsPrepService'];
 
-  function SongCtrl($rootScope) {
-    var songCtrl = this;
+  function SongCtrl($rootScope, songsPrepService) {
+    var songCtrl          = this;
+    songCtrl.songs        = songsPrepService;
     activate();
 
     function activate(){
+      console.log(songCtrl.songsPrepService);
       $rootScope.titleNavbar = 'Canciones';
     }
 

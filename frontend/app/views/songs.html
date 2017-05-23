@@ -11,7 +11,7 @@
           <div class="card-title">
             Lista de canciones
             <div class="pull-right">
-              <div class"wraper-search-custom">
+              <div class="wraper-search-custom">
                 <input id="search-custom" type="text" placeholder="Search..">
                 <button class="btn-search-custom"><i class="fa fa-search"></i></button>
               </div>
@@ -28,33 +28,19 @@
                   <th>Nombre</th>
                   <th>Autor</th>
                   <th>Contenido</th>
+                  <th>Ultima vez tocada</th>
+                  <th># veces tocada</th>
                   <th>Acciones</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
+                <tr ng-repeat="song in songCtrl.songs">
+                  <td>{{song.name}}</td>
+                  <td>{{song.author}}</td>
+                  <td>{{song.content}}</td>
+                  <td>{{song.lastPlayed}}</td>
+                  <td>{{song.timesPlayed}}</td>
                   <td>editar, eliminar, agregar a lista</td>
-                </tr>
-                <tr>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                  <td>@twitter</td>
-                </tr>
-                <tr>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                  <td>@twitter</td>
                 </tr>
               </tbody>
             </table>
