@@ -36,12 +36,11 @@ apiRoutes.post('/authenticate', function(req, res) {
 
 });
 
-
 // route middleware to verify a token
 apiRoutes.use(function(req, res, next) {
 
   // check header or url parameters or post parameters for token
-  var token = req.body.token || req.query.token || req.headers['x-access-token'];
+  var token = req.body.token || req.query.token || req.headers['x-csrf-token'];
 
   // decode token
   if (token) {
@@ -71,4 +70,3 @@ apiRoutes.use(function(req, res, next) {
 
 
 module.exports = apiRoutes;
-

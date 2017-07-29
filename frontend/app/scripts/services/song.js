@@ -16,7 +16,7 @@
       query: {
         data: '',
         method: 'GET',
-        isArray: true,
+        isArray: false,
         headers: {
           'Content-Type': 'application/json'
         }
@@ -41,8 +41,8 @@
       getSongs : getSongs
     }
 
-    function getSongs(){
-      return SongResource.query().$promise;
+    function getSongs(page, itemsPerPage){
+      return SongResource.query({page: page, itemPerPage: itemsPerPage}).$promise;
     }
 
     return service;

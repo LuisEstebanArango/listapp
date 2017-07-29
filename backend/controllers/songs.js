@@ -14,8 +14,15 @@ router.get('/', function(req, res) {
     songs = _.orderBy(songs, [order, 'id'], ['asc', 'asc']);
   else
     songs = _.orderBy(songs, ['id'], ['asc']);
-  if (page && itemPerPage)
-    songs = _.chunk(songs, itemPerPage)[page-1];
+  if (page && itemPerPage){
+    songs = _.chunk(songs, itemPerPage)[page];
+    return res.json({
+      list:songs,
+      totalItems: req.app.locals.data.songs.length,
+      currentPage: page,
+      itemPerPage: itemPerPage
+    });
+  }
   res.json(songs);
 });
 

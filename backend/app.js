@@ -74,7 +74,7 @@ router.get('/views/*', function(req, res) {
 });
 
 // Routes
-// app.use('/api', require('./controllers/api'));
+app.use('/api', require('./controllers/api'));
 app.use('/api/users', require('./controllers/users'));
 app.use('/api/songs', require('./controllers/songs'));
 app.use('', router);

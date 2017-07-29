@@ -128,7 +128,7 @@
   }
 
   function songsPrepService(songService){
-    return songService.getSongs().then(function (songs){
+    return songService.getSongs(0, 10).then(function (songs){
       return songs;
     }).catch(function (error){
       console.log(error);
