@@ -20,7 +20,7 @@ apiRoutes.post('/authenticate', function(req, res) {
       // if user is found and password is right
       // create a token
       var token = jwt.sign(user, 'superSecret', {
-        expiresIn: 60 * 2 // expires in 24 hours 1440
+        expiresIn: 60 * 60 * 24 * 2 // segundos
       });
 
       // return the information including token as JSON
