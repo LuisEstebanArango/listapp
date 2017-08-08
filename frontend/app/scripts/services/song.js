@@ -12,7 +12,7 @@
   songService.$inject = ['$resource'];
 
   function songService($resource){
-    var SongResource = $resource('/api/songs/:songId', {}, {
+    var SongResource = $resource('/api/songs/:idSong', {}, {
       query: {
         data: '',
         method: 'GET',
@@ -38,11 +38,21 @@
 
     var service = {
       Song : SongResource,
-      getSongs : getSongs
+      getSongs : getSongs,
+      getSong  : getSong,
+      deleteSong : deleteSong
     }
 
     function getSongs(page, itemsPerPage){
       return SongResource.query({page: page, itemPerPage: itemsPerPage}).$promise;
+    }
+
+    function getSong(idSong) {
+      return SongResource.query({idSong: idSong}).$promise;
+    }
+
+    function deleteSong(idSong) {
+      return SongResource.delete({idSong: idSong}).$promise;
     }
 
     return service;

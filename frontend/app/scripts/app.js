@@ -60,6 +60,15 @@
                 songsPrepService : songsPrepService
               }
         })
+        .state('songsEdit', {
+            url: 'songs/:songId/editar',
+            templateUrl: 'views/songCreate.html',
+            controller: 'SongCreateCtrl',
+            controllerAs: 'songCreateCtrl',
+              resolve: {
+                isLogged : isLogged
+              }
+        })
         .state('lists', {
             url: '/lists',
             templateUrl: 'views/lists.html',

@@ -50,7 +50,7 @@
                       </button>
                       <ul class="dropdown-menu">
                         <li><a href="" ng-click="songCtrl.selectSong(song)">Observar</a></li>
-                        <li><a ui-sref="songsEdit({songId: song.id})" href="">Editar</a></li>
+                        <li><a href="#">Editar</a></li>
                         <li><a href="#">Agregar a lista</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="" ng-click="songCtrl.deleteSong(song)">Eliminar</a></li>
@@ -64,35 +64,6 @@
 
           <ul uib-pagination boundary-links="true" total-items="songCtrl.totalItems" ng-model="songCtrl.currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" ng-change="songCtrl.pageChanged()"></ul>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="detailSong" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">{{songCtrl.songSelected.name}}</h4>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <b>Autor:</b> {{songCtrl.songSelected.author}}
-        </div>
-        <div class="row">
-          <b>Última vez tocada:</b> {{songCtrl.songSelected.lastPlayed}}
-        </div>
-        <div class="row">
-          <b>Cantidad de veces tocada:</b> {{songCtrl.songSelected.timesPlayed}}
-        </div>
-        <div class="row">
-          <b>Contenido:</b> {{songCtrl.songSelected.content}}
-        </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
