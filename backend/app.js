@@ -44,7 +44,6 @@ app.use(morgan('combined', {stream: accessLogStream}));
 //>>>>>>>>
 
 
-
 //data
 app.locals.readData = function(){
   fs.readFile('./data', 'utf8', function (err,dat) {
